@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit m- "Task 5 Intento 1 Proyect Shell permissions"
+git push
