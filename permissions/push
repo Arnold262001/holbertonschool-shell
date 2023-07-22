@@ -1,4 +1,19 @@
 #!/bin/bash
+# Este script realiza los siguientes comandos de git:
+# - git status
+# - git add .
+# - git commit -m "Task _ intento _ Proyect: _____________"
+# - git push
+
+# Comando nativo de git para mostrar el estado del repositorio
+git status
+
+# Comando nativo de git para añadir todos los archivos modificados al área de preparación
 git add .
-git commit m- "Task 5 Intento 1 Proyect Shell permissions"
+
+# Comando nativo de git para crear un commit con un mensaje personalizado
+# Se usa la opción -e para abrir el editor y modificar el mensaje
+git commit -e -m "Task _ intento _ Proyect: _____________"
+
+# Comando nativo de git para subir los cambios al repositorio remoto
 git push
