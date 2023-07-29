@@ -17,7 +17,7 @@ git add $archivos
 
 # Comando nativo de git para crear un commit con un mensaje personalizado
 # Se usa la opción -e para abrir el editor y modificar el mensaje
-git commit -e -m "Task _ intento _ Proyect: _____________"
+git commit -e -m "Task _ intento _ Proyect: "
 
 # Comando nativo de git para subir los cambios al repositorio remoto
 git push
